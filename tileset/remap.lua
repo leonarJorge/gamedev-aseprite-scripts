@@ -14,7 +14,7 @@ function drawImage(img, x, y, scale, target)
 end
 
 -- You may need to change this path according to the location of the configuration file
-local file = io.open( app.fs.userConfigPath .. "/scripts/aseprite-scripts/tileset/remap-config.json", "rb")
+local file = io.open( app.fs.userConfigPath .. "/scripts/gamedev-aseprite-scripts/tileset/remap-config.json", "rb")
 local config = json.decode(file:read "*a")
 file:close()
 

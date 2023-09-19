@@ -28,8 +28,8 @@ After
 ![grass-platform-autotile](https://github.com/leonarJorge/aseprite-scripts/assets/12295900/fbacb926-8eae-46d8-99cd-f94efb82073a)
 
 
-If you just placed this project folder or cloned it directly into your Aseprite script's folder it should work normally, but if you just downloaded the script by itself or placed it in another folder you may need to edit the path to the ``remap-config.json`` file. To do so, open the script file with a text editor, and change the path ``"/scripts/aseprite-scripts/tileset/remap-config.json"`` to the location of your configuration file in the following line
+If you just placed this project folder or cloned it directly into your Aseprite script's folder it should work normally, but if you just downloaded the script by itself or placed it in another folder you may need to edit the path to the ``remap-config.json`` file. To do so, open the script file with a text editor, and change the path ``"/scripts/gamedev-aseprite-scripts/tileset/remap-config.json"`` to the location of your configuration file in the following line
 
 ```lua
-local file = io.open( app.fs.userConfigPath .. "/scripts/aseprite-scripts/tileset/remap-config.json", "rb")
+local file = io.open( app.fs.userConfigPath .. "/scripts/gamedev-aseprite-scripts/tileset/remap-config.json", "rb")
 ```
