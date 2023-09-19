@@ -1,4 +1,4 @@
-# aseprite-scripts
+# Aseprite Scripts for Gamedevs
 Currently there is only one script here to remap tilesets, this collection may or may not grow in the future but expect it to contain scripts related to game development only.
 
 # Tileset
@@ -32,4 +32,8 @@ If you just placed this project folder or cloned it directly into your Aseprite 
 local file = io.open( app.fs.userConfigPath .. "/scripts/gamedev-aseprite-scripts/tileset/remap-config.json", "rb")
 ```
 
+# License
+![MIT](https://github.com/leonarJorge/gamedev-aseprite-scripts/blob/main/LICENSE) License
+
+# Donations
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P7PD8FY)
